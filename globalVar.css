@@ -1,4 +1,16 @@
 :root{
-    --primary-color: #6D28D9;
+    --error-bg-color: #fad7d2;
+    --error-color: #E01006;
+    --hover-color-grey: #fffffa5d;
+    --info-bg-color: #afcdf5;
+    --info-color: #2236B5;
     --light-color: white;
+    --primary-color: #6D28D9;
+    --secondary-color: #d92b6d;
+    --success-bg-color: #92fdbf;
+    --success-color: #157A00;
+    --warning-bg-color: #fcea88 ;
+    --warning-color: #836f00;
+    --default-color: #535353;
+    --disabled-color: #8b8b8b;
 }

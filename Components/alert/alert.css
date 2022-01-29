@@ -1,0 +1,71 @@
+@import url('../../globalVar.css');
+.alert-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+    row-gap: 1rem;
+}
+
+.alert{
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    width: 50%;
+}
+
+.alert-success{
+    background-color: var(--success-bg-color);
+    color: var(--success-color);
+}
+
+.alert-info{
+    background-color: var(--info-bg-color);
+    color: var(--info-color);
+}
+
+.alert-warning{
+    background-color: var(--warning-bg-color);
+    color: var(--warning-color);
+}
+
+.alert-error{
+    background-color: var(--error-bg-color);
+    color: var(--error-color);
+}
+
+.alert-success-filled{
+    background-color: var(--success-color);
+    color: var(--light-color);
+}
+
+.alert-info-filled{
+    background-color: var(--info-color);
+    color: var(--light-color);
+}
+
+.alert-warning-filled{
+    background-color: var(--warning-color);
+    color: var(--light-color);
+}
+
+.alert-error-filled{
+    background-color: var(--error-color);
+    color: var(--light-color);
+}
+
+.btn-close{
+    height: 10px;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    width: 10px;
+}
+
+.btn-close:hover{
+    background-color: var(--hover-color-grey);
+    border-radius: 50%;
+}
