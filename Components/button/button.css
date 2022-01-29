@@ -10,11 +10,11 @@
 
 .btn{
     background-color: inherit;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     border: none;
     height: 2rem;
     width: 8rem;
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 .btn-primary{
@@ -86,21 +86,21 @@
 .btn-link-primary{
     border-bottom: 1px solid var(--primary-color);
     color: var(--primary-color);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
 }
 
 .btn-link-secondary{
     border-bottom: 1px solid var(--secondary-color);
     color: var(--secondary-color);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
 }
 
 .btn-link-default{
     border-bottom: 1px solid var(--default-color);
     color: var(--default-color);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
 }
 
@@ -113,7 +113,7 @@
 }
 
 .btn-icon > .fas, .btn-icon > .far{
-    padding-right: 10px;
+    padding-right: 0.625rem;
 }
 
 .btn:hover, .btn-float:hover, .btn-link:hover{
