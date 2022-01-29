@@ -11,7 +11,7 @@
 }
 
 .badge{
-    font-size: 20px;
+    font-size: 1.25rem;
     position: relative;
     width: max-content;
 }
@@ -57,7 +57,7 @@
 }
 
 .badge-away{
-    background-color: rgb(196, 196, 23);
+    background-color: #c4c417;
 }
 
 .badge-online{
