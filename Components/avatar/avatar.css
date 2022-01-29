@@ -29,28 +29,28 @@
     justify-content: center;
 }
 
-.avatar-lg-size{
+.avatar-lg{
     font-size: 48px;
     height: 6rem;
     position: relative;
     width: 6rem;
 }
 
-.avatar-md-size{
+.avatar-md{
     font-size: 32px;
     height: 4rem;
     position: relative;
     width: 4rem;
 }
 
-.avatar-sm-size{
+.avatar-sm{
     font-size: 24px;
     height: 3rem;
     position: relative;
     width: 3rem;
 }
 
-.avatar-xs-size{
+.avatar-xs{
     font-size: 16px;
     height: 2rem;
     position: relative;

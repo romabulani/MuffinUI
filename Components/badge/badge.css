@@ -32,22 +32,22 @@
     right: -0.2rem;
 }
 
-.badge-lg-circle{
+.badge-lg{
     height: 1.5rem;
     width: 1.5rem;
 }
 
-.badge-md-circle{
+.badge-md{
     height: 1rem; 
     width: 1rem;
 }
 
-.badge-sm-circle{
+.badge-sm{
     height: 12px;  
     width: 12px;
 }
 
-.badge-xs-circle{
+.badge-xs{
     height: 8px;  
     width: 8px;
 }
@@ -76,7 +76,7 @@
     width: 1.1em;
 }
 
-.badge-small{
+.badge-number{
     font-size: 8px;
 }
 
