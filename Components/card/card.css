@@ -15,7 +15,7 @@
     height: 25rem;
     margin:1rem;
     width: min-content;  
-    box-shadow:  0 0 10px var(--shadow-color);
+    box-shadow:  0 0 0.625rem var(--shadow-color);
     position: relative;
 }
 
@@ -157,11 +157,11 @@
 
 .card-badge{
     background-color: var(--secondary-color);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     color: var(--light-color);
     left: 0;
     padding: 4px 8px;
     position: absolute;
-    top: 10px;
+    top: 0.625rem;
     width: max-content;
 }
