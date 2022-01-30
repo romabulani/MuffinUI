@@ -1,6 +1,5 @@
-let btnClose = document.querySelector('.btn-close');
-btnClose.addEventListener('click', onCrossClick);
-
+let btnCloseArray = document.querySelectorAll('.btn-close');
+Array.from(btnCloseArray).map(btnClose => btnClose.addEventListener('click', onCrossClick));
 function onCrossClick(){
     this.parentNode.style.display= 'none';
 }
