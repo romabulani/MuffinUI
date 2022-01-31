@@ -1,4 +1,4 @@
-@import url('../../globalVar.css');
+@import url('../../styles/globalVar.css');
 .alert-container{
     align-items: center;
     display: flex;

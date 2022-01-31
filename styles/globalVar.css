@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 *{
     font-family: 'Inter', sans-serif;
 }
@@ -21,4 +22,8 @@
     --primary-bg-color:#d1d8ff;
     --shadow-color: #b9b9b9;
     --dark-color: #000000;
+}
+
+.align-center{
+    text-align: center;
 }
