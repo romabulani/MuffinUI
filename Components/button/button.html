@@ -7,44 +7,248 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muffin UI | Button </title>
     <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="../../styles/documentation.css">
     <script src="https://kit.fontawesome.com/c89017add5.js" crossorigin="anonymous"></script>
+    <!-- added for icon in browser tab -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
-    <div class="button-container">
-        <button class="btn btn-primary">Primary</button>
-        <button class="btn btn-secondary">Secondary</button>
-        <button class="btn btn-default">Default</button>
-        <button class="btn btn-success">Success</button>
-        <button class="btn btn-error">Error</button>
-        <button class="btn btn-disable" disabled>Disabled</button>
-    </div>
+    <div class="pagewrapper">
 
-    <div class="button-container">
-        <button class="btn btn-outline-primary">Primary</button>
-        <button class="btn btn-outline-secondary">Secondary</button>
-        <button class="btn btn-outline-default">Default</button>
-        <button class="btn btn-outline-success">Success</button>
-        <button class="btn btn-outline-error">Error</button>
-        <button class="btn btn-outline-disable" disabled>Disabled</button>
-    </div>
+        <!-- HEADER NAVIGATION -->
+        <nav class="nav-container">
+            <div class="brand">
+                <img src="../../images/logo.png" alt="muffin-logo" class="logo">
+                <a href="../../index.html"  class="brand-name nav-item">Muffin UI</a>
+            </div> 
+            <ul>
+                <li class="nav-item nav-icon ">
+                    <a href="https://github.com/romabulani" target="_blank">
+                        <i class="fa fa-github nav-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item nav-icon ">
+                    <a href="https://twitter.com/romabulani" target="_blank">
+                        <i class="fa fa-twitter nav-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item nav-icon">
+                    <a href="https://www.linkedin.com/in/romabulani/" target="_blank">
+                        <i class="fa fa-linkedin nav-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item nav-icon"></li>
+                    <i class="hamburger fa fa-bars fa-lg" aria-hidden="true"></i>
+                </li>
+            </ul>
+        </nav>
 
-    <div class="button-container">
-        <button class="btn "><a href="" class="btn-link btn-link-primary">Primary Link</a></button>
-        <button class="btn "><a href="" class="btn-link btn-link-secondary">Secondary Link</a></button>
-        <button class="btn"><a href="" class="btn-link  btn-link-default">Default Link</a></button>
-    </div>
+        <!-- SIDEBAR AND HERO SECTION -->
+        <div class="sidebar-and-content">
 
-    <div class="button-container">
-        <button class="btn btn-icon btn-primary"><i class="far fa-save"></i>Save</button>
-        <button class="btn btn-icon btn-secondary"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
-        <button class="btn btn-icon btn-default"><i class="far fa-trash-alt"></i>Delete</button>
-    </div>
+            <!-- SIDEBAR -->
+            <aside class="sidebar default-shadow">
+                <ul>
+                    <li class="sidenav-list">
+                        <a href="../../Documentation/documentation.html" class="sidenav-item">Installation</a>
+                    </li>
+                    <h2 class="sidebar-heading">Components</h2>
+                    <li class="sidenav-list">
+                        <a href="../../Components/alert/alert.html" class="sidenav-item">Alerts</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/avatar/avatar.html" class="sidenav-item">Avatars</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/badge/badge.html" class="sidenav-item">Badges</a>
+                    </li>
+                    <li class="sidenav-list active">
+                        <a href="../../Components/button/button.html" class="sidenav-item active">Buttons</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/card/card.html" class="sidenav-item">Cards</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/chips/chips.html" class="sidenav-item">Chips</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/image/image.html" class="sidenav-item">Image</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/input/input.html" class="sidenav-item">Input</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/lists/lists.html" class="sidenav-item">Lists</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/modal/modal.html" class="sidenav-item">Modal</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/rating/rating.html" class="sidenav-item">Rating</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/tabs/tabs.html" class="sidenav-item">Tabs</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/toast/toast.html" class="sidenav-item">Toast</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/grid/grid.html" class="sidenav-item">Simplified Grid</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/slider/slider.html" class="sidenav-item">Slider</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/utilities/utilities.html" class="sidenav-item">Utilities</a>
+                    </li>
+                </ul>
+            </aside>
 
-    <div class="button-container">
-        <button class="btn-float btn-primary"><i class="fas fa-arrow-up fa-lg"></i></button>
-        <button class="btn-float btn-secondary"><i class="fas fa-share fa-lg"></i></button>
-        <button class="btn-float btn-default"><i class="fas fa-plus fa-lg"></i></button>
+            <!-- HERO SECTION -->
+            <div class="content-container">
+                <div class="content">
+                    <h3 class="heading3">Buttons</h3>
+                    <p class="description">
+                        Buttons are useful in performing various actions on a single click. Different variants of buttons are present in Muffin UI. Take a look 
+                    </p>
+                    <h4 class="heading4">Default Buttons</h4>
+                    <p class="description">
+                        The default buttons are available in different variants. The <span>btn</span> class needs to be added in button tag. Along with that classes such as <span class="keyword">btn-primary</span>, <span class="keyword">btn-secondary</span>, <span class="keyword">btn-default</span>, <span class="keyword">btn-success</span>, <span>btn-error</span> and <span class="keyword">btn-disable</span> can be added as per the user's requirement
+                    </p>
+                </div>
+                  
+                <div class="display-component">
+                    <div class="button-container flex-row-center">
+                        <button class="btn btn-primary">Primary</button>
+                        <button class="btn btn-secondary">Secondary</button>
+                        <button class="btn btn-default">Default</button>
+                        <button class="btn btn-success">Success</button>
+                        <button class="btn btn-error">Error</button>
+                        <button class="btn btn-disable" disabled>Disabled</button>
+                    </div> 
+                </div>
+
+                <div class="code-snippet">
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.html%23L147-L152&style=github-gist&showBorder=on&showCopy=on"></script>
+                </div>
+                
+                <div class="content">
+                    <h4 class="heading4">Outline Buttons</h4>
+                    <p class="description">
+                        For outline buttons, the classes such as <span class="keyword">btn-outline-primary</span>, <span class="keyword">btn-outline-secondary</span>, <span class="keyword">btn-outline-default</span>, <span class="keyword">btn-outline-success</span>, <span class="keyword">btn-outline-error</span> and <span class="keyword">btn-outline-disable</span> can be added
+                    </p>
+                </div>
+                  
+                <div class="display-component">
+                    <div class="button-container flex-row-center">
+                        <button class="btn btn-outline-primary">Primary</button>
+                        <button class="btn btn-outline-secondary">Secondary</button>
+                        <button class="btn btn-outline-default">Default</button>
+                        <button class="btn btn-outline-success">Success</button>
+                        <button class="btn btn-outline-error">Error</button>
+                        <button class="btn btn-outline-disable" disabled>Disabled</button>
+                    </div>
+                </div>
+
+                <div class="code-snippet">
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.html%23L156-L161&style=github-gist&showBorder=on&showCopy=on"></script>
+                </div>
+                
+                
+                <div class="content">
+                    <h4 class="heading4">Link Buttons</h4>
+                    <p class="description">
+                        The links can also be wrapped in buttons by giving class name as <span class="keyword">btn-link</span> to a tag. There are 3 variations primary, secondary and default. For primary the class<span class="keyword">btn-link-primary</span> can be given.
+                    </p>
+                </div>
+                  
+                <div class="display-component">
+                    <div class="button-container flex-row-center">
+                        <button class="btn"><a href="" class="btn-link btn-link-primary">Primary Link</a></button>
+                        <button class="btn "><a href="" class="btn-link btn-link-secondary">Secondary Link</a></button>
+                        <button class="btn"><a href="" class="btn-link  btn-link-default">Default Link</a></button>
+                    </div>
+                </div>
+
+                <div class="code-snippet">
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.html%23L165-L167&style=github-gist&showBorder=on&showCopy=on"></script>
+                </div>
+
+                <div class="content">
+                    <h4 class="heading4">Buttons With Icons</h4>
+                    <p class="description">
+                        The class <span class="keyword">btn-icon</span> needs to be added along with other classes.
+                    </p>
+                </div>
+                  
+                <div class="display-component">
+                    <div class="button-container flex-row-center">
+                        <button class="btn btn-icon btn-primary"><i class="far fa-save"></i>Save</button>
+                        <button class="btn btn-icon btn-secondary"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                        <button class="btn btn-icon btn-default"><i class="far fa-trash-alt"></i>Delete</button>
+                    </div>
+                </div>
+
+                <div class="code-snippet">
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.html%23L171-L173&style=github-gist&showBorder=on&showCopy=on"></script>
+                </div>
+
+                <div class="content">
+                    <h4 class="heading4">Floating Action Buttons</h4>
+                    <p class="description">
+                        These can be used by providing the class name as <span class="keyword">btn-float</span>
+                    </p>
+                </div>
+                  
+                <div class="display-component">
+                    <div class="button-container flex-row-center">
+                        <button class="btn-float btn-primary"><i class="fas fa-arrow-up fa-lg"></i></button>
+                        <button class="btn-float btn-secondary"><i class="fas fa-share fa-lg"></i></button>
+                        <button class="btn-float btn-default"><i class="fas fa-plus fa-lg"></i></button>
+                    </div>
+                </div>
+
+                <div class="code-snippet">
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.html%23L177-L179&style=github-gist&showBorder=on&showCopy=on"></script>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="footer-container flex-column-center">
+            <p class="footer-header">
+                Made with <span>&lt;/&gt;</span> by Roma Bulani
+            </p>
+            <ul>
+                <li class="footer-item">
+                    <a href="https://github.com/romabulani" target="_blank">
+                        <i class="fa fa-github footer-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="footer-item">
+                    <a href="https://twitter.com/romabulani" target="_blank">
+                        <i class="fa fa-twitter footer-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="footer-item">
+                    <a href="https://www.linkedin.com/in/romabulani/" target="_blank">
+                        <i class="fa fa-linkedin footer-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="copywright">
+                © 2022 | Muffin UI
+            </p>
+        </footer>
     </div>
+   
 </body>
 </html>
