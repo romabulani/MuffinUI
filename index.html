@@ -8,103 +8,127 @@
     <title>Muffin UI</title>
     <link rel="stylesheet" href="styles/main.css">
     <script src="https://kit.fontawesome.com/c89017add5.js" crossorigin="anonymous"></script>
+
+    <!-- added for icon in browser tab -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
-    <div class="nav-container">
-        <div class="brand-name nav-item">
-            Muffin UI
-        </div>
-        <ul>
-            <li class="nav-item nav-icon ">
-                <a href="https://github.com/romabulani" target="_blank">
-                    <i class="fa fa-github nav-icon fa-lg" aria-hidden="true"></i>
-                </a>  
-            </li>
-            <li class="nav-item nav-icon ">
-                <a href="https://twitter.com/romabulani" target="_blank" >
-                    <i class="fa fa-twitter nav-icon fa-lg" aria-hidden="true"></i>
-                </a>
-            </li>
-            <li class="nav-item nav-icon">
-                <a href="https://www.linkedin.com/in/romabulani/" target="_blank">
-                    <i class="fa fa-linkedin nav-icon fa-lg" aria-hidden="true"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <div class="hero-container">
-        <img class ="hero-img img-responsive" src="./images/hero-img.svg" alt="hero-image"> 
-        <div class="hero-content">
-            <h2>Make your UI clean and responsive with Muffin UI</h2>
-            <p>
-                Muffin Component Library is the <span>user-friendly</span> and <span>lightweight</span> component library.
-                It helps you to design your responsive website quickly just by importing it in your project.
-            </p>
-    
-            <div class="getting-started-container">
+    <div class="pagewrapper">
+
+         <!-- HEADER NAVIGATION -->
+        <nav class="nav-container">
+            <div class="brand">
+                <img src="./images/logo.png" alt="muffin-logo" class="logo">
+                <a href="../index.html"  class="brand-name nav-item">Muffin UI</a>
+            </div> 
+            <ul>
+                <li class="nav-item nav-icon ">
+                    <a href="https://github.com/romabulani" target="_blank">
+                        <i class="fa fa-github nav-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item nav-icon ">
+                    <a href="https://twitter.com/romabulani" target="_blank">
+                        <i class="fa fa-twitter nav-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item nav-icon">
+                    <a href="https://www.linkedin.com/in/romabulani/" target="_blank">
+                        <i class="fa fa-linkedin nav-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- MIDDLE SECTION STARTS-->
+
+        <!-- HERO SECTION -->
+        <div class="hero-container">
+            <img class="hero-img img-responsive" src="./images/hero-img.svg" alt="hero-image">
+            <div class="hero-content flex-column-center">
+                <h2>Make your UI clean and responsive</h2>
+                <p>
+                    Muffin Component Library is the <span class="keyword">user-friendly</span> and <span class="keyword">lightweight</span> component
+                    library.
+                    It helps you to design your responsive website quickly just by importing it in your project.
+                </p>
                 <button class='getting-started-btn'>GETTING STARTED </button>
             </div>
         </div>
-    </div> 
 
-    
-    <div class="card-container">
-        <h2 class="align-center">Why Muffin UI?</h2>
-        <div class="cards">
-        <div class="card card-text-only">
-            <div class="card-header">
-                Responsiveness
-            </div>
-            <div class="card-content">
-                You dont need to set the reponsive units by yourself. We encourage consistency across platforms, environments, and screen sizes by using uniform elements and spacing.
+        <!-- CARDS SECTION -->
+        <div class="card-container-main">
+            <h2 class="align-center">Why Muffin UI?</h2>
+            <div class="cards">
+                <div class="card-main card-text-only">
+                    <div class="card-header-main">
+                        Responsiveness
+                    </div>
+                    <div class="card-content">
+                        You dont need to set the reponsive units by yourself. We encourage consistency across platforms,
+                        environments, and screen sizes by using uniform elements and spacing.
+                    </div>
+                </div>
+
+                <div class="card-main card-text-only">
+                    <div class="card-header-main">
+                        Lightweight
+                    </div>
+                    <div class="card-content">
+                        Whole library is made using Vanilla CSS3, which makes it lightweight. This helps in loading the
+                        website faster avoiding the user to wait for long time.
+                    </div>
+                </div>
+
+                <div class="card-main card-text-only">
+                    <div class="card-header-main">
+                        User Friendly
+                    </div>
+                    <div class="card-content">
+                        The names for CSS Classes are quite easy, keeping in mind the component's name, appearance and
+                        its use. The code snippets are provided to help the user.
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="card card-text-only">
-            <div class="card-header">
-                Lightweight
-            </div>
-            <div class="card-content">
-                Whole library is made using Vanilla CSS3, which makes it lightweight. This helps in loading the website faster avoiding the user to wait for long time.
-            </div>
-        </div>
-
-        <div class="card card-text-only">
-            <div class="card-header">
-                User Friendly
-            </div>
-            <div class="card-content">
-                The names for CSS Classes are quite easy, keeping in mind the component's name, appearance and its use. The code snippets are provided to help the user.
-            </div>
-        </div>
-    </div>
-    </div> 
-    <div class="footer-container">
-        <p class="footer-header">
-            Made with <span>&lt;/&gt;</span> by Roma Bulani
-        </p>
-        <ul>
-            <li class="footer-item">
-                <a href="https://github.com/romabulani" target="_blank">
-                    <i class="fa fa-github footer-icon fa-lg" aria-hidden="true"></i>
-                </a>  
-            </li>
-            <li class="footer-item">
-                <a href="https://twitter.com/romabulani" target="_blank" >
-                    <i class="fa fa-twitter footer-icon fa-lg" aria-hidden="true"></i>
-                </a>
-            </li>
-            <li class="footer-item">
-                <a href="https://www.linkedin.com/in/romabulani/" target="_blank">
-                    <i class="fa fa-linkedin footer-icon fa-lg" aria-hidden="true"></i>
-                </a>
-            </li>
-        </ul>
-        <p class="copywright">
-            © 2022 | Muffin UI
-        </p>
+        <!-- MIDDLE SECTION ENDS-->
+        
+        <!-- FOOTER -->
+        <footer class="footer-container flex-column-center">
+            <p class="footer-header">
+                Made with <span>&lt;/&gt;</span> by Roma Bulani
+            </p>
+            <ul>
+                <li class="footer-item">
+                    <a href="https://github.com/romabulani" target="_blank">
+                        <i class="fa fa-github footer-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="footer-item">
+                    <a href="https://twitter.com/romabulani" target="_blank">
+                        <i class="fa fa-twitter footer-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="footer-item">
+                    <a href="https://www.linkedin.com/in/romabulani/" target="_blank">
+                        <i class="fa fa-linkedin footer-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="copywright">
+                © 2022 | Muffin UI
+            </p>
+        </footer>
     </div>
 </body>
+<script src="app.js"></script>
 
 </html>

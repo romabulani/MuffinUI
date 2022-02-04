@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 *{
-    font-family: 'Inter', sans-serif;
+     font-family: 'Inter', sans-serif; 
 }
 
 :root{
@@ -20,10 +20,53 @@
     --default-color: #535353;
     --disabled-color: #8b8b8b;
     --primary-bg-color:#d1d8ff;
+    --primary-light-color: #c4b5fd;
     --shadow-color: #b9b9b9;
     --dark-color: #000000;
+    --display-box-border:#e6e6e6;
+    
+
+    --default-shadow: 0 0 0.625rem var(--shadow-color);
+    --right-shadow: 10px 0 10px -10px  var(--shadow-color);
+}
+
+.flex-column-center{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-row-center{
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .align-center{
     text-align: center;
 }
+
+.heading3{
+    font-size: 1.5rem;
+} 
+
+.heading4{
+    font-size: 1.2rem;
+} 
+
+.keyword{
+    color: var(--primary-color);
+}
+
+
+/* Scrollbar Customisation*/
+::-webkit-scrollbar {
+    height: 2px;
+    width: 3px;
+  }
+   
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color); 
+    border-radius: 0.625rem;
+  }
