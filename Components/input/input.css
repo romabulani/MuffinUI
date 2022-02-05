@@ -1,4 +1,4 @@
-@import url('../../globalVar.css');
+@import url('../../styles/globalVar.css');
 .input-container{
     align-items: flex-start;
     column-gap: 1rem;
@@ -13,6 +13,7 @@
     border-radius: 0.625rem;
     height: 2rem;
     outline: none;
+    padding: 0rem 0.625rem;
     width: 30%;
 }
 
@@ -24,11 +25,11 @@
     border: 1px solid var(--default-color);
 }
 
-.input-error, .input-error:focus{
+.input-error{
     border: 1px solid var(--error-color);
 }
 
-.input-primary:focus{
+.input-primary:focus, .input-error:focus{
     border: 1px solid var(--primary-color);
 }
 

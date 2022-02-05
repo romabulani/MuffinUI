@@ -1,52 +1,47 @@
-@import url('../../globalVar.css');
+@import url('../../styles/globalVar.css');
 @import url('../alert/alert.css');
+@import url('../image/image.css');
 
 .card-container{
-    display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
 }
 
 .card{
     background-color: var(--light-color);
     display: flex;
     flex-direction: column;
-    height: 25rem;
-    margin:1rem;
-    width: min-content;  
-    box-shadow:  0 0 0.625rem var(--shadow-color);
+    height: 22.5rem;
+    margin: 1rem;
+    width: 13rem;  
+    box-shadow:  var(--default-shadow);
     position: relative;
 }
 
 .card-img > img{
     height: 12.5rem;
-    width: 18.75rem;
+    width: 13rem;
 }
 
 .card-header{
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: bold;
     padding-left: 1rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
 
 .card-title{
     color: var(--default-color);
-    font-weight: bold;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
     padding-left: 1rem;
 }
 
 .card-content{
     font-size: 0.875rem;
-    padding-bottom: 0.5rem;
     padding-left: 0.5rem;
-    padding-top: 0.5rem;
 }
 
 .card-buttons{
-    align-items: space-around;
+    align-items: space-between;
     display:flex;
     padding: 0.5rem;
 }
@@ -59,8 +54,15 @@
 }
 
 .card-icon{
+    color: var(--primary-color);
     display: inline-block;
     margin:auto;
+    padding: 0.5rem;
+}
+
+.card-icon:hover{
+    background-color: var(--hover-color-grey);
+    border-radius: 50%;
 }
 
 .card-heading-top > .card-header{
@@ -71,25 +73,18 @@
     order: -1;
 }
 
-.card-icons-only > .card-buttons > .card-button{
-    visibility: hidden;
-}
-
-.card-buttons-only > .card-buttons > .card-icon, .card-horizontal > .card-content{
-    display: none;
-}
-
 .card-text-overlay{
-    height: 20rem;  
+    height: 19rem;  
 }
 
 .card-text-overlay > .card-img{
+    opacity: 0.5;
     position: relative;
 }
 
 .card-text-overlay > .card-header, .card-text-overlay > .card-title{
-    color: var(--light-color);
-    padding-top:9.5rem;
+    padding-left: 4rem;
+    padding-top:6rem;
     position: absolute;
 }
 
@@ -98,7 +93,7 @@
 }
 
 .card-horizontal{
-    height: 10rem;
+    height: 12.8rem;
     width: 20rem;
 }
 
@@ -122,12 +117,12 @@
 }
 
 .card-text-only{
-    height: 12rem;
+    height: 10.8rem;
     width: 20rem;
 }
 
 .card-vertical{
-    height: 30rem;
+    height: 28.5rem;
     width: 10rem;
 }
 
@@ -143,7 +138,7 @@
 }
 
 .card-button:hover, .card-icon:hover{
-    color: var(--secondary-color);
+    filter: brightness(80%);
 }
 
 .btn-close{

@@ -1,4 +1,4 @@
-@import url('../../globalVar.css');
+@import url('../../styles/globalVar.css');
 @import url('../avatar/avatar.css');
 
 .badge-container{
@@ -43,13 +43,13 @@
 }
 
 .badge-sm{
-    height: 12px;  
-    width: 12px;
+    height: 0.75rem;  
+    width: 0.75rem;
 }
 
 .badge-xs{
-    height: 8px;  
-    width: 8px;
+    height: 0.5rem;  
+    width: 0.5rem;
 }
 
 .badge-busy{
@@ -72,16 +72,16 @@
     display:inline-flex;
     height: 1.2em;
     justify-content: center;
-    padding: 0.3em 0.3em;
-    width: 1.1em;
+    padding: 0.4em 0.4em;
+    width: 1.2em;
 }
 
 .badge-number{
-    font-size: 8px;
+    font-size: 10px;
 }
 
 .badge-right{
     position: absolute;
     right: -4px;
-    top: -5px;
+    top: -10px;
 }

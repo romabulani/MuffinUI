@@ -1,0 +1,88 @@
+@import url('./globalVar.css');
+@import url('./reset.css');
+@import url('../Components/card/card.css');
+@import url('./documentation.css');
+
+
+/* Hero Section */
+.hero-container{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero-content{
+    flex-grow: 1;
+    margin: 2rem;
+    row-gap: 3rem;
+    width: 40%;
+}
+
+.hero-img{
+    margin: 4rem 0rem;
+    width: 40%;
+}
+
+.hero-container h2{
+    font-size: 1.8rem;
+}
+
+.hero-container p{
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.getting-started-btn{
+    background-color: var(--light-color);
+    border-radius: 0.625rem;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 1.5rem;
+    height: 4rem;
+    transition: all 0.5s ease-out;
+    width: 16rem;
+}
+
+.hero-content > p > span{
+    font-size: 1.5rem;
+}
+
+.getting-started-btn:hover{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    height: 5rem;
+    width: 17rem;
+}
+
+/* cards */
+.card-container-main{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.card-main{
+    height: 10rem;
+}
+
+.card-header-main{
+    margin-bottom: 1rem;
+}
+
+.card-container-main  h2{
+    font-size: 1.5rem;
+}
+
+/* Media Queries */
+@media only screen and (max-width : 640px){
+    .hero-content, .hero-img{
+        width: 100%;
+    }
+}
