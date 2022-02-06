@@ -1,7 +1,7 @@
 @import url("../../styles/globalVar.css");
 @import url("../button/button.css");
 
-.display-component {
+.display-component, .disable-container {
   height: 15rem;
 }
 
