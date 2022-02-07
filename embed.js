@@ -28,7 +28,7 @@
                   }, 3000);
             }
 
-            
+//           Chips  
             
             let addChip = document.querySelector('.chip-input');
             let chipsCollector = document.querySelector('.chips-dynamic');
@@ -49,6 +49,6 @@
           }
         })
 
-function onCrossClick(){
-    this.parentNode.style.display= 'none';
-}
+      function onCrossClick(){
+            this.parentNode.style.display= 'none';
+      }
