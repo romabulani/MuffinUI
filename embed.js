@@ -49,6 +49,6 @@
           }
         })
 
-      function onCrossClick(){
-            this.parentNode.style.display= 'none';
-      }
+            function onCrossClick(){
+                  this.parentNode.style.display= 'none';
+            }
