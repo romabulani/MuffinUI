@@ -24,7 +24,7 @@
     --shadow-color: #b9b9b9;
     --dark-color: #000000;
     --display-box-border:#e6e6e6;
-    
+    --star-rating: #ffcd3c;
 
     --default-shadow: 0 0 0.625rem var(--shadow-color);
     --right-shadow: 10px 0 10px -10px  var(--shadow-color);
