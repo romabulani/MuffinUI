@@ -31,9 +31,8 @@
   border-bottom: 1px solid var(--primary-color);
 }
 
-.tab-icon-left > .fa,
-.tab-icon-top > .fa {
-  padding-right: 10px;
+.tab-icon-left > .fa {
+  padding-right: 4px;
 }
 
 .tab-icon-left > i,
