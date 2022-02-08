@@ -14,7 +14,7 @@
     height: 2rem;
     outline: none;
     padding: 0rem 0.625rem;
-    width: 30%;
+    width: 40%;
 }
 
 .input-disabled{
@@ -35,4 +35,11 @@
 
 .error-text{
     color: red;
+}
+
+/* Media Queries */
+@media only screen and (max-width : 480px){
+    .input-disabled, .input-error, .input-primary{
+        width: 100%;
+    }
 }

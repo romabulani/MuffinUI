@@ -25,11 +25,13 @@
 
 .nav-simple-container > ul > li {
   list-style-type: none;
+  padding: 0.5rem;
 }
 
 .nav-simple-container > ul {
   column-gap: 2rem;
   display: flex;
+  flex-wrap: wrap;
   padding: 1rem;
 }
 
