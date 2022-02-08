@@ -9,9 +9,10 @@
 }
 
 .img-fit{
+    border-radius: 50%;
     max-height:100%;
     max-width:100%;
-    border-radius: 50%;
+    object-fit: fill;
 }
 .avatar{
     border-radius: 50%;
@@ -27,6 +28,7 @@
     color: var(--light-color);
     display: inline-flex;
     justify-content: center;
+    object-fit: fill;
 }
 
 .avatar-lg{
