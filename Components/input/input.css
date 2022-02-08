@@ -34,12 +34,12 @@
 }
 
 .error-text{
-    color: red;
+    color: var(--error-color);
 }
 
 /* Media Queries */
 @media only screen and (max-width : 480px){
     .input-disabled, .input-error, .input-primary{
-        width: 100%;
+        width: 90%;
     }
 }

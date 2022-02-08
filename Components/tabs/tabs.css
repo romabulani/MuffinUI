@@ -16,6 +16,10 @@
   row-gap: 0.625rem;
 }
 
+.tab-container{
+  overflow-x: scroll;
+}
+
 .tab-link {
   color: var(--primary-color);
   text-decoration: none;
