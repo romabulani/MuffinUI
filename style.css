@@ -1,0 +1,19 @@
+@import url('styles/globalVar.css');
+@import url('Components/alert/alert.css');
+@import url('Components/avatar/avatar.css');
+@import url('Components/badge/badge.css');
+@import url('Components/button/button.css');
+@import url('Components/card/card.css');
+@import url('Components/chips/chips.css');
+@import url('Components/grid/grid.css');
+@import url('Components/image/image.css');
+@import url('Components/input/input.css');
+@import url('Components/lists/lists.css');
+@import url('Components/modal/modal.css');
+@import url('Components/navigation/navigation.css');
+@import url('Components/rating/rating.css');
+@import url('Components/slider/slider.css');
+@import url('Components/tabs/tabs.css');
+@import url('Components/toast/toast.css');
+@import url('Components/utilities/utilities.css');
+
