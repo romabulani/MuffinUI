@@ -63,7 +63,7 @@
             topIconsTabsArray.forEach(tab => tab.addEventListener('click', () => onClickTabHandler(topIconsTabsArray,tab)));
 
             const onClickTabHandler = (arr, activeTab) => {
-            arr.forEach(tab => tab.classList.remove('tab-active'));
-            activeTab.classList.add('tab-active');
+                  arr.forEach(tab => tab.classList.remove('tab-active'));
+                  activeTab.classList.add('tab-active');
             }
 
