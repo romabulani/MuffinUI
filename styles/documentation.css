@@ -91,3 +91,15 @@
     margin: 1rem;
     padding: 1rem;
 }
+
+@media only screen and (max-width : 640px){
+    .hamburger{
+        visibility: visible;
+    }
+    .sidebar{
+        display: none;
+    }
+    .nav-icon{
+        display: none;
+    }
+}
