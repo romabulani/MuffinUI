@@ -8,6 +8,7 @@
 
 .card {
   background-color: var(--light-color);
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   height: 20rem;
@@ -23,6 +24,8 @@
 }
 
 .card-img > img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   position: relative;
   height: 100%;
   width: 100%;
@@ -87,7 +90,6 @@
 
 .card-text-overlay > .card-img > img{
   opacity: 0.5;
-  /* position: relative; */
 }
 
 .card-text-overlay > .card-img > .card-header{
