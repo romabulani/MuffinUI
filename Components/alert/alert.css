@@ -1,68 +1,69 @@
 @import url('../../styles/globalVar.css');
-.alert-container{
-    flex-wrap: wrap;
-    margin: 1rem;
-    row-gap: 1rem;
+.alert-container {
+  flex-wrap: wrap;
+  margin: 1rem;
+  row-gap: 1rem;
 }
 
-.alert{
-    border-radius: 5px;
-    padding: 0.625rem;
-    position: relative;
-    width: 50%;
+.alert {
+  border-radius: 5px;
+  padding: 0.625rem;
+  position: relative;
+  width: 50%;
 }
 
-.alert-success{
-    background-color: var(--success-bg-color);
-    color: var(--success-color);
+.alert-success {
+  background-color: var(--success-bg-color);
+  color: var(--success-color);
 }
 
-.alert-info{
-    background-color: var(--info-bg-color);
-    color: var(--info-color);
+.alert-info {
+  background-color: var(--info-bg-color);
+  color: var(--info-color);
 }
 
-.alert-warning{
-    background-color: var(--warning-bg-color);
-    color: var(--warning-color);
+.alert-warning {
+  background-color: var(--warning-bg-color);
+  color: var(--warning-color);
 }
 
-.alert-error{
-    background-color: var(--error-bg-color);
-    color: var(--error-color);
+.alert-error {
+  background-color: var(--error-bg-color);
+  color: var(--error-color);
 }
 
-.alert-success-filled{
-    background-color: var(--success-color);
-    color: var(--light-color);
+.alert-success-filled {
+  background-color: var(--success-color);
+  color: var(--light-color);
 }
 
-.alert-info-filled{
-    background-color: var(--info-color);
-    color: var(--light-color);
+.alert-info-filled {
+  background-color: var(--info-color);
+  color: var(--light-color);
 }
 
-.alert-warning-filled{
-    background-color: var(--warning-color);
-    color: var(--light-color);
+.alert-warning-filled {
+  background-color: var(--warning-color);
+  color: var(--light-color);
 }
 
-.alert-error-filled{
-    background-color: var(--error-color);
-    color: var(--light-color);
+.alert-error-filled {
+  background-color: var(--error-color);
+  color: var(--light-color);
 }
 
-.btn-close{
-    height: 0.625rem;
-    padding: 0.625rem;
-    position: absolute;
-    right: 0.625rem;
-    top: 4px;
-    width: 0.625rem;
-    color: var(--dark-color);
+.btn-close {
+  cursor: pointer;
+  height: 0.625rem;
+  padding: 0.625rem;
+  position: absolute;
+  right: 0.625rem;
+  top: 4px;
+  width: 0.625rem;
+  color: var(--dark-color);
 }
 
-.btn-close:hover{
-    background-color: var(--hover-color-grey);
-    border-radius: 50%;
+.btn-close:hover {
+  background-color: var(--hover-color-grey);
+  border-radius: 50%;
 }

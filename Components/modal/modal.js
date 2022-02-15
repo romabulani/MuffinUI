@@ -13,9 +13,9 @@ btnDefaultModal.addEventListener('click', () => onClickHandler(defaultModal));
 btnListModal.addEventListener('click', () => onClickHandler(listModal));
 btnScrollModal.addEventListener('click', () => onClickHandler(scrollModal));
 
-function onClickHandler(modalType){
-    buttonContainer.style.display = 'none';
-    disableContainer.style.background = '#C0C0C0';
-    modalType.style.display = 'flex';
-    modalType.style.background = '#FFFFFF'; 
+function onClickHandler(modalType) {
+  buttonContainer.style.display = 'none';
+  disableContainer.style.background = '#C0C0C0';
+  modalType.style.display = 'flex';
+  modalType.style.background = '#FFFFFF';
 }
