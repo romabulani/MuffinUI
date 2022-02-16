@@ -84,6 +84,11 @@
   order: -1;
 }
 
+.card-heading-top > .card-img-container > .card-img{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
 .card-text-overlay {
   height: 17rem;
 }
