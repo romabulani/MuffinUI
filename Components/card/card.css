@@ -36,19 +36,19 @@
 .card-header {
   font-size: 1rem;
   font-weight: bold;
-  padding-left: 1rem;
+  padding-left: 0.5rem;
   padding-top: 0.5rem;
 }
 
 .card-title {
   color: var(--default-color);
   padding-bottom: 0.5rem;
-  padding-left: 1rem;
+  padding-left: 0.5rem;
 }
 
 .card-content {
   font-size: 0.875rem;
-  padding-left: 0.5rem;
+  padding: 0rem 0.5rem;
 }
 
 .card-buttons {
@@ -88,11 +88,11 @@
   height: 17rem;
 }
 
-.card-text-overlay > .card-img-container > .card-img{
+.card-text-overlay > .card-img-container > .card-img {
   opacity: 0.5;
 }
 
-.card-text-overlay > .card-img-container > .card-header{
+.card-text-overlay > .card-img-container > .card-header {
   left: 50%;
   padding: 0;
   position: absolute;
@@ -139,6 +139,7 @@
   height: 14rem;
   width: 10rem;
 }
+
 .card-vertical-frame {
   width: 11rem;
 }
@@ -153,6 +154,7 @@
 }
 
 .btn-close {
+  cursor: pointer;
   height: 0.625rem;
   padding: 0.625rem;
   position: absolute;

@@ -15,15 +15,17 @@ btnToastInfo.addEventListener('click', () => onClickHandler(toastInfo));
 btnToastWarning.addEventListener('click', () => onClickHandler(toastWarning));
 btnToastError.addEventListener('click', () => onClickHandler(toastError));
 
-const onClickHandler = element => {
-    console.log(element);
-    element.style.display = 'block';
-    setTimeout(() => {
-        element.style.display = 'none';
-    }, 3000);
-}
+const onClickHandler = (element) => {
+  console.log(element);
+  element.style.display = 'block';
+  setTimeout(() => {
+    element.style.display = 'none';
+  }, 3000);
+};
 
-Array.from(btnCloseArray).map(btnClose => btnClose.addEventListener('click', onCrossClick));
-function onCrossClick(){
-    this.parentNode.style.display= 'none';
+Array.from(btnCloseArray).map((btnClose) =>
+  btnClose.addEventListener('click', onCrossClick)
+);
+function onCrossClick() {
+  this.parentNode.style.display = 'none';
 }
