@@ -1,5 +1,5 @@
-let addChip = document.querySelector('.chip-input');
-let chipsCollector = document.querySelector('.chips-dynamic');
+const addChip = document.querySelector('.chip-input');
+const chipsCollector = document.querySelector('.chips-dynamic');
 
 addChip.addEventListener('keyup', () => {
   if (event.key === "Enter")
