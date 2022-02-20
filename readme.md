@@ -6,7 +6,7 @@
 
 ## Description
 
-Welcome Fellow Developer, Muffin UI is the user-friendly component library. It helps you to design your responsive website quickly just by importing it in your project.
+Welcome Aboard Fellow Developer, Muffin UI is the user-friendly component library. It helps you to design your responsive website quickly just by importing it in your project.
 
 ## Instructions
 To use the Muffin UI in your project, copy the below code and add it in the head section of your HTML file.
