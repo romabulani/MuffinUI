@@ -3,6 +3,7 @@
 
 [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/romabulani/MuffinUI)
 ![lines of code](https://tokei.rs/b1/github/romabulani/MuffinUI)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
