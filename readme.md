@@ -159,6 +159,7 @@ Utilities are helpful in maintaining the consistency all the pages while buildin
 - WebP format of images is used in the Muffin UI which ensure fast loading and less render blocking.
 - For CSS, alphabetical ordering of the properties is followed which helps in easy debugging.
 - Use of reponsive units and media queries to make it Mobile Responsive.
+- The properties like aria-label and rel are added in anchor tags which increase the accessibility.
 
 ## Future Enhancements
 - Dark Mode
